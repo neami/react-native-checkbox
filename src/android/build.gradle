@@ -21,6 +21,7 @@ def getExtOrIntegerDefault(name) {
 }
 
 android {
+    namespace 'com.reactnativecommunity.checkbox'
     compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
     buildToolsVersion getExtOrDefault('buildToolsVersion')
 
